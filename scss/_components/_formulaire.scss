@@ -5,9 +5,9 @@ padding: 2rem;
 }
 
 .Form_contact{
-  display: flex;
-  flex-wrap: wrap; 
-  background-color: $color_primaire_complement;
+  display: grid;
+  grid-template-columns: 1fr 2fr; 
+  background-color: red;
 }
 .Form_contact_label{
  font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,6 +15,7 @@ padding: 2rem;
 
 .Form_contact_input{
   background-color: orange;
+
 }
 
 .Form_contact_textearea{
